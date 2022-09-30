@@ -30,7 +30,7 @@ const Form = ({
         onChange={inputTextHandler}
       />
       <button className="todo-button" type="submit" onClick={submitTodoHandler}>
-        +
+        Add
       </button>
       {/* <div className="select">
         <select
