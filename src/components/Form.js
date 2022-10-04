@@ -32,7 +32,7 @@ const Form = ({
       <button className="todo-button" type="submit" onClick={submitTodoHandler}>
         Add
       </button>
-      {/* <div className="select">
+      <div className="select">
         <select
           name="todos"
           className="filter-todo"
@@ -42,7 +42,7 @@ const Form = ({
           <option value="completed">Completed</option>
           <option value="incomplete">incomplete</option>
         </select>
-      </div> */}
+      </div>
     </form>
   );
 };
